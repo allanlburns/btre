@@ -81,7 +81,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'btredb',
         'USER': 'postgres',
-        'PASSWORD': 'sonnenstrasse'
+        'PASSWORD': 'sonnenstrasse',
+        'HOST': 'localhost'
     }
 }
 
