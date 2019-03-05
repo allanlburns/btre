@@ -129,3 +129,10 @@ MEDIA_URL = '/media/'
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
+
+# Email config
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER='your email goes here'
+EMAIL_HOST_PASSWORD='your password goes here'
+EMAIL_USE_TLS=True
