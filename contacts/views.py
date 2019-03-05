@@ -33,7 +33,7 @@ def contact(request):
 		'There has been an inquiry for ' + listing + '. Sign into the admin panel for more information.',
 		'allanlburns@gmail.com',
 		['allanlburns@gmail.com'],
-		fail_silently=False
+		fail_silently=True # was set to False
 	)
 
 
